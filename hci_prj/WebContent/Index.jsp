@@ -9,12 +9,13 @@
     <meta name="author" content="">
 
     <title>Dashboard Template for Bootstrap</title>
-
+<link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
+    
     <link href="css/dashboard.css" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -144,7 +145,11 @@
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
+     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+   
+    
+    
+    
   </body>
 </html>
