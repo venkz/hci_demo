@@ -32,7 +32,51 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Notifications</a></li>
+            <li class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    Notifications (3)</a>
+            <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>CSC 554 - HCI Study Group</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Today</em>
+                                    </span>
+                                </div>
+                                <div>Next time we meet, we will study 'The Computer: Input' chapter that was taught in class.</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>CSC 510 - SE Study Group</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>I have booked room #2324 at Hunt Library for us to meet this week. See you all there!</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>CSC 540 - DBMS Study Group</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Is it possible for us to meet on Friday, November 28th as the final exams are next week?</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                    </ul>
+            
+            
+            </li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Help</a></li>
           </ul>
