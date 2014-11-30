@@ -20,8 +20,10 @@
 				<div class="ui-grid-c">
 					<div class="ui-block-a">
 						<div>
-							<h2>CSC 541</h2>
-							<p>Hot Chip</p>
+							<h2>Rocking Study Group</h2>
+							<p>Course: Software Engineering, Graph Data Mining
+							<p>November 30, 5p.m to 8p.m</p>
+							<p>DH Hill, Floor 3, Room 3076 </p>
 						</div>
 					</div>
 					<div class="ui-block-b"></div>
@@ -40,8 +42,10 @@
 				<div class="ui-grid-c">
 					<div class="ui-block-a">
 						<div>
-							<h2>CSC 441</h2>
-							<p>Hot Chip</p>
+							<h2>CSC 554 HCI Study Group</h2>
+							<p>Course: Human Computer Interaction</p>							
+							<p>December 3, 11a.m to 5p.m</p>
+							<p>Hunt Library, Floor 4, Room 4716 </p>
 						</div>
 					</div>
 					<div class="ui-block-b"></div>
@@ -60,8 +64,10 @@
 				<div class="ui-grid-c">
 					<div class="ui-block-a">
 						<div>
-							<h2>CSC 501</h2>
-							<p>Hot Chip</p>
+							<h2>DBMS Study Group</h2>
+							<p>Course: Database Management Systems</p>
+							<p>Every Friday, 9p.m to 12p.m</p>
+							<p>Hunt Library, Floor 2, Room 2116</p>
 						</div>
 					</div>
 					<div class="ui-block-b"></div>

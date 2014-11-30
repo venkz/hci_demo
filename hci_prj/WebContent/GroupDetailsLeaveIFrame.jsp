@@ -11,14 +11,14 @@
 	<div class="ui-grid-c">
 		<div class="ui-block-a">
 			<div>
-				<h4>Course Name:</h4>
 				<h4>Group Name:</h4>
+				<h4>Related Courses</h4>
 				<h4>Group Initiator:</h4>
 			</div>
 		</div>
 		<div class="ui-block-b h4-ans">
-			CSC 541<br>
-			<div class="h4-ans">Data Structures demo group</div>
+			Rocking Study Group<br>
+			<div class="h4-ans">Software Engineering, GDM</div>
 			vkara<br>
 		</div>
 		<div class="ui-block-c">
@@ -27,9 +27,9 @@
 			<h4>Group Capacity:</h4>
 		</div>
 		<div class="ui-block-d h4-ans">
-			CSC 541
-			<div class="h4-ans">Data Structures demo group</div>
-			vkara
+			DH Hill, Floor 3, Room 3076
+			<div class="h4-ans">Nov 30, 5p.m to 8p.m</div>
+			5/7
 		</div>
 	</div>
 
@@ -65,40 +65,36 @@
 
 	<ul data-role="listview" data-inset="true"
 		style="height: 40%; overflow: scroll;">
-		<li data-role="list-divider">Friday, October 8, 2010 <span
+		<li data-role="list-divider">Saturday, November 29, 2014 <span
 			class="ui-li-count">2</span></li>
 		<li>
 			<h2>Stephen Weber</h2>
 			<p>
-				<strong>You've been invited to a meeting at Filament Group
-					in Boston, MA</strong>
+				<strong>We will discuss the topics taught in class today. SE class was about cohesion and coupling. </strong>
 			</p>
-			<p>Hey Stephen, if you're available at 10am tomorrow, we've got a
-				meeting with the jQuery team.</p>
+			
 			<p class="ui-li-aside">
 				<strong>6:24</strong>PM
 			</p>
 		</li>
 		<li>
-			<h2>jQuery Team</h2>
+			<h2>Swathi Kiran</h2>
 			<p>
-				<strong>Boston Conference Planning</strong>
+				<strong>Can anyone tell me what are we going to discuss about in todays meeting?</strong>
 			</p>
-			<p>In preparation for the upcoming conference in Boston, we need
-				to start gathering a list of sponsors and speakers.</p>
+			
 			<p class="ui-li-aside">
 				<strong>9:18</strong>AM
 			</p>
 		</li>
-		<li data-role="list-divider">Thursday, October 7, 2010 <span
+		<li data-role="list-divider">Thursday, October 27, 2014 <span
 			class="ui-li-count">1</span></li>
 		<li>
-			<h2>Avery Walker</h2>
+			<h2>vkara</h2>
 			<p>
-				<strong>Re: Dinner Tonight</strong>
+				<strong>Welcome everyone. Lets meet on Sunday to discuss about SE and GDM.</strong>
 			</p>
-			<p>Sure, let's plan on meeting at Highland Kitchen at 8:00
-				tonight. Can't wait!</p>
+		
 			<p class="ui-li-aside">
 				<strong>4:48</strong>PM
 			</p>
@@ -111,7 +107,7 @@
 			<button style="color: white; background-color: red;">Leave Group</button>
 		</div>
 		<div class="ui-block-c" style="padding-left: 10px;">
-			<button style="color: white; background-color: green;">Subuscribe for Notifications</button>
+			<button style="color: white; background-color: green;">Subscribe for Notifications</button>
 		</div>
 		<div class="ui-block-d"></div>
 	</div>

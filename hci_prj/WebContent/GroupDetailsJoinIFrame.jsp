@@ -11,15 +11,15 @@
 	<div class="ui-grid-c">
 		<div class="ui-block-a">
 			<div>
-				<h4>Course Name:</h4>
 				<h4>Group Name:</h4>
+				<h4>Related Courses:</h4>
 				<h4>Group Initiator:</h4>
 			</div>
 		</div>
 		<div class="ui-block-b h4-ans">
-			CSC 541<br>
-			<div class="h4-ans">Data Structures demo group</div>
-			vkara<br>
+			SS Pirates<br>
+			<div class="h4-ans">Software Security</div>
+			skypa<br>
 		</div>
 		<div class="ui-block-c">
 			<h4>Location:</h4>
@@ -27,9 +27,9 @@
 			<h4>Group Capacity:</h4>
 		</div>
 		<div class="ui-block-d h4-ans">
-			CSC 541
-			<div class="h4-ans">Data Structures demo group</div>
-			vkara
+			Hunt Library, Floor 2, Room-2795
+			<div class="h4-ans">December 8, 5p.m to 9p.m</div>
+			3/5
 		</div>
 	</div>
 
@@ -40,44 +40,20 @@
 
 	<ul data-role="listview" data-inset="true"
 		style="height: 40%; overflow: scroll;">
-		<li data-role="list-divider">Friday, October 8, 2010 <span
+		<li data-role="list-divider">Sunday, November 30th, 2014 <span
 			class="ui-li-count">2</span></li>
 		<li>
-			<h2>Stephen Weber</h2>
+			<h2>skypa</h2>
 			<p>
-				<strong>You've been invited to a meeting at Filament Group
-					in Boston, MA</strong>
+				<strong>Welcome to SS Pirates. Lets revise all the topics of SS for the exam </strong>
 			</p>
-			<p>Hey Stephen, if you're available at 10am tomorrow, we've got a
-				meeting with the jQuery team.</p>
+			
 			<p class="ui-li-aside">
 				<strong>6:24</strong>PM
 			</p>
 		</li>
-		<li>
-			<h2>jQuery Team</h2>
-			<p>
-				<strong>Boston Conference Planning</strong>
-			</p>
-			<p>In preparation for the upcoming conference in Boston, we need
-				to start gathering a list of sponsors and speakers.</p>
-			<p class="ui-li-aside">
-				<strong>9:18</strong>AM
-			</p>
-		</li>
-		<li data-role="list-divider">Thursday, October 7, 2010 <span
-			class="ui-li-count">1</span></li>
-		<li>
-			<h2>Avery Walker</h2>
-			<p>
-				<strong>Re: Dinner Tonight</strong>
-			</p>
-			<p>Sure, let's plan on meeting at Highland Kitchen at 8:00
-				tonight. Can't wait!</p>
-			<p class="ui-li-aside">
-				<strong>4:48</strong>PM
-			</p>
-		</li>
+		
+
 	</ul>
 <br>
 	<div class="ui-grid-b">
