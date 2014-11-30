@@ -61,28 +61,36 @@
 		<label id="recurstudygrp"><input type="checkbox" class="recur">  Recurring Group Study</label>
 		</div>
 		</div>
-		
+
 		<div id="nonrecurring">
-		<div class="form-group">
-			<label class="col-sm-2 control-label">Start Time</label>
-			<div class="col-sm-10">
-				<input id="setdate1" readonly="readonly" class="datepicker">
-				<input id="timepicker3" type="text" class="datepicker">
-
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Start Time</label>
+				<div class="row">
+					<div class="col-sm-4">
+						<input id="setdate1" readonly="readonly" class="datepicker">
+						<input id="timepicker3" type="text" class="datepicker">
+					</div>
+					<div class="col-sm-4">
+						<p style="color: red;" hidden="true" id="errorMsg">Overlapping schedule found! Please check your <a>calander</a></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Start Time</label>
+				<div class="row">
+					<div class="col-sm-4">
+						<input id="setdate2" readonly="readonly" class="datepicker">
+						<input id="timepicker4" type="text" class="datepicker">
+					</div>
+					<div class="col-sm-4">
+						<p style="color: red;" hidden="true" id="errorMsg2">Overlapping schedule found! Please check your <a>calander</a></p>
+					</div>
+				</div>
 			</div>
 
 		</div>
 
-		<div class="form-group">
-			<label for="desc" class="col-sm-2 control-label">End Time</label>
-			<div class="col-sm-10">
-				<input id="setdate2" readonly="readonly" class="datepicker">
-				<input id="timepicker4" type="text" class="datepicker">
-
-			</div>
-		</div>
-		</div>
-		
 		<div id="recurring">
 		<div class="form-group">
 			<label class="col-sm-2 control-label">Day</label>
@@ -152,10 +160,10 @@
 			</div>
 			
 		</div>
-		
+		<br><br>
 		<div class="form-group">
-			<div class="col-sm-offset-2 col-sm-10" align="center">
-				<input type="submit" class="btn btn-lg">Create</button>
+			<div class="col-sm-offset-2 col-sm-10" align="left">
+				<input type="button" class="btn btn-lg btn-success" value="Create" id="submitBtn">
 			</div>
 		</div>
 
@@ -194,5 +202,28 @@
 		     $('#nonrecurring').toggle(!this.checked);
 		$('#recurring').toggle(this.checked);
 		  }).change(); 
+
+		$('#timepicker3').on('change', function (){
+			if($( this ).val().search('9:') >= 0) {
+				$('#errorMsg').removeAttr("hidden");
+				$('#submitBtn').attr('disabled', 'disabled');
+			}
+			else {
+				$('#errorMsg').attr('hidden', 'hidden');
+				$('#submitBtn').removeAttr('disabled');
+			}
+		});
+
+		$('#timepicker4').on('change', function (){
+			if($( this ).val().search('10:') >= 0) {
+				$('#errorMsg2').removeAttr("hidden");
+				$('#submitBtn').attr('disabled', 'disabled');
+			}
+			else {
+				$('#errorMsg2').attr('hidden', 'hidden');
+				$('#submitBtn').removeAttr('disabled');
+			}
+		});
+		
 	});
 </script>
