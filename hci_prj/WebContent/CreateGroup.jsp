@@ -47,15 +47,24 @@
 			</div>
 		</div>
 		<div class="form-group">
-			<label for="desc" class="col-sm-2 control-label">Group
+			<label for="inputCapacity" class="col-sm-2 control-label">Group
 				Capacity</label>
 			<div class="col-sm-10">
 				<input type="number" class="form-control" id="inputCapacity"
 					placeholder="Group Capacity" required="required" >
 			</div>
 		</div>
+		
 		<div class="form-group">
-			<label for="desc" class="col-sm-2 control-label">Start Time</label>
+		<label for="recurstudygrp" class="col-sm-2 control-label"></label>
+		<div class="col-sm-10">
+		<label id="recurstudygrp"><input type="checkbox" class="recur">  Recurring Group Study</label>
+		</div>
+		</div>
+		
+		<div id="nonrecurring">
+		<div class="form-group">
+			<label class="col-sm-2 control-label">Start Time</label>
 			<div class="col-sm-10">
 				<input id="setdate1" readonly="readonly" class="datepicker">
 				<input id="timepicker3" type="text" class="datepicker">
@@ -72,6 +81,40 @@
 
 			</div>
 		</div>
+		</div>
+		
+		<div id="recurring">
+		<div class="form-group">
+			<label class="col-sm-2 control-label">Day</label>
+			<div class="col-sm-10">
+			<select class="selectpicker form-control" title="Choose Day" >
+						<option>Monday</option>
+						<option>Tuesday</option>
+						<option>Wednesday</option>
+						<option>Thursday</option>
+						<option>Friday</option>
+						<option>Saturday</option>
+						<option>Sunday</option>
+			</select>
+		
+			</div>
+
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">Time</label>
+			
+	
+			<div class="col-sm-10">
+				
+				<input class="timepicker" type="text" class="datepicker">
+				<label>--</label>
+				<input class="timepicker" type="text" class="datepicker">
+
+			</div>
+
+		</div>
+		</div>
+		
 		<div class="form-group">
 			<label for="desc" class="col-sm-2 control-label">Location</label>
 			<div class="col-sm-10">
@@ -140,6 +183,16 @@
 			showInputs : false,
 			disableFocus : true
 		});
+		$('.timepicker').timepicker({
+			minuteStep : 1,
+			showInputs : false,
+			disableFocus : true
+		});
+		
 		$('.selectpicker').selectpicker();
+		$('.recur').change(function () {                
+		     $('#nonrecurring').toggle(!this.checked);
+		$('#recurring').toggle(this.checked);
+		  }).change(); 
 	});
 </script>
