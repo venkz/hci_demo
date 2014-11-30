@@ -163,8 +163,19 @@
 		<br><br>
 		<div class="form-group">
 			<div class="col-sm-offset-2 col-sm-10" align="left">
-				<input type="button" class="btn btn-lg btn-success" value="Create" id="submitBtn">
+				<a href="#" data-reveal-id="myModal"
+					data-animation="fade" class="btn btn-lg btn-success" id="submitBtn">
+					Create </a>
 			</div>
+		</div>
+
+
+
+		<div id="myModal" class="reveal-modal">
+			<h1>Group created successfully</h1>
+			<p>The requested study group is created. You can find this updated in your schedule. Click on Proceed to navigate to your schedule.</p>
+			<a href="Dashboard.jsp" class="btn btn-lg btn-success">Proceed</a>
+			<a class="close-reveal-modal">&#215;</a>
 		</div>
 
 	</form>
@@ -200,9 +211,10 @@
 		});
 		
 		$('.selectpicker').selectpicker();
+		
 		$('.recur').change(function () {                
 		     $('#nonrecurring').toggle(!this.checked);
-		$('#recurring').toggle(this.checked);
+			 $('#recurring').toggle(this.checked);
 		  }).change(); 
 
 		$('#timepicker3').on('change', function (){

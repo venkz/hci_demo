@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="js/jquery.js"></script>
-<script src="js/jquery.mobile-1.4.5.min.js"></script>
 <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet">
+<link href="css/reveal.css" rel="stylesheet">
 
 <meta charset="ISO-8859-1">
 </head>
@@ -56,7 +55,7 @@
 				<div class="ui-block-d"></div>
 				<div class="ui-block-e">
 					<div>
-						<button style="color: white; background-color: blue;;">Post</button>
+						<button style="color: white; background-color: blue;" id="posted">Post</button>
 					</div>
 				</div>
 			</div>
@@ -69,8 +68,18 @@
 
 	<ul data-role="listview" data-inset="true"
 		style="height: 40%; overflow: scroll;">
-		<li data-role="list-divider">Saturday, November 29, 2014 <span
+		<li data-role="list-divider">Sunday, November 30, 2014 <span
 			class="ui-li-count">2</span></li>
+		<li id="onPost">
+			<h2>Venkatesh Kara</h2>
+			<p>
+				<strong>I just posted this topic and please check this out. </strong>
+			</p>
+			
+			<p class="ui-li-aside">
+				<strong>8:24</strong>PM
+			</p>
+		</li>
 		<li>
 			<h2>Stephen Weber</h2>
 			<p>
@@ -108,12 +117,66 @@
 	<div class="ui-grid-c">
 		<div class="ui-block-a"></div>
 		<div class="ui-block-b" style="padding-right: 10px;">
-			<button style="color: white; background-color: red;">Leave Group</button>
+			<button style="color: white; background-color: red;" id="leave">Leave Group</button>
 		</div>
 		<div class="ui-block-c" style="padding-left: 10px;">
-			<button style="color: white; background-color: green;">Subscribe for Notifications</button>
+			<button style="color: white; background-color: green;" id="subs">Subscribe for Notifications</button>
 		</div>
 		<div class="ui-block-d"></div>
 	</div>
+	
+	<a href="#" data-reveal-id="myModal"
+					data-animation="fade" class="btn btn-lg btn-success" id="submitBtn" hidden="">
+					Create </a>
+	
+	<div id="myModal" class="reveal-modal">
+			<h1>Left Group successfully</h1>
+			<p>You are not part of this study group anymore. You can find this updated in your schedule. Click on Proceed to navigate to your schedule.</p>
+			<a href="Dashboard.jsp" class="btn btn-lg btn-success" target="_parent">Proceed</a>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+		
+		<a href="#" data-reveal-id="myModal2"
+					data-animation="fade" class="btn btn-lg btn-success" id="submitBtn2" hidden="">
+					Create </a>
+	
+	<div id="myModal2" class="reveal-modal">
+			<h1>Subscribed for Notifications </h1>
+			<p>You will now receive notifications whenever there are news posts in this group's forum.</p>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+	
 </body>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/jquery-1.4.4.min.js"></script>
+<script src="js/jquery.reveal.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#onPost").hide();
+	});
+
+	$("#leave").click(function(event){
+	  event.preventDefault();
+	  $("#submitBtn").click();
+	});
+
+	$("#subs").click(function(event){
+		  event.preventDefault();
+		  $("#submitBtn2").click();
+		});
+
+	$("#subs").click(function(event){
+		  event.preventDefault();
+		  $("#submitBtn2").click();
+		});
+
+	$("#posted").click(function(event){
+		event.preventDefault();
+		  $("#onPost").show();
+		});
+</script>
+
 </html>
