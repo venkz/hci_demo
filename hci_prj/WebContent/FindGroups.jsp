@@ -7,6 +7,7 @@
 			onload='javascript:resizeIframe(this);' frameborder="0"
 			seamless="seamless" src="FindGroupsIFrame.jsp"></iframe>
 	</div>
+<a href="MyGroups.jsp"><span class="glyphicon glyphicon-arrow-left" style="font-size:38px;"></span></a>
 
 </div>
 

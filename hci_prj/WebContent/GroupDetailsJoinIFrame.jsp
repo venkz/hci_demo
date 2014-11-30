@@ -11,27 +11,31 @@
 	<div class="ui-grid-c">
 		<div class="ui-block-a">
 			<div>
-				<h4>Group Name:</h4>
-				<h4>Related Courses:</h4>
-				<h4>Group Initiator:</h4>
+				<b>Group Name:</b><br><br>
+				<b>Related Courses:</b><br><br>
+				<b>Group Initiator:</b><br><br>
 			</div>
 		</div>
-		<div class="ui-block-b h4-ans">
-			SS Pirates<br>
-			<div class="h4-ans">Software Security</div>
-			skypa<br>
+		<div class="ui-block-b">
+			SS Pirates<br><br>
+			Software Security<br><br>
+			skypa<br><br>
 		</div>
 		<div class="ui-block-c">
-			<h4>Location:</h4>
-			<h4>Timings:</h4>
-			<h4>Group Capacity:</h4>
+			<b>Location:</b><br><br>
+			<b>Timings:</b><br><br>
+			<b>Group Capacity:</b><br><br>
 		</div>
-		<div class="ui-block-d h4-ans">
-			Hunt Library, Floor 2, Room-2795
-			<div class="h4-ans">December 8, 5p.m to 9p.m</div>
-			3/5
+		<div class="ui-block-d">
+			Hunt Library, Floor 2, Room-2795<br><br>
+			December 8, 5p.m to 9p.m<br><br>
+			3/5<br><br>
 		</div>
 	</div>
+
+	<p><b>Description: </b> This is an initial discussion on Threat model. We can ponder over how wiki says 
+	It is often useful to define many separate threat models for one computer system. Each model defines a narrow set of possible attacks to focus on.
+	 A threat model can help to assess the probability, the potential harm, the priority etc., of attacks, and thus help to minimize or eradicate the threats </p>
 
 	<h2 style="text-align: center;">Discussion Forums</h2>
 	

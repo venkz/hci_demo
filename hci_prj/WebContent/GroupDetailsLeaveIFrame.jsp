@@ -11,27 +11,31 @@
 	<div class="ui-grid-c">
 		<div class="ui-block-a">
 			<div>
-				<h4>Group Name:</h4>
-				<h4>Related Courses</h4>
-				<h4>Group Initiator:</h4>
+				<b>Group Name:</b><br><br>
+				<b>Related Courses:</b><br><br>
+				<b>Group Initiator:</b><br><br>
 			</div>
 		</div>
-		<div class="ui-block-b h4-ans">
-			Rocking Study Group<br>
-			<div class="h4-ans">Software Engineering, GDM</div>
-			vkara<br>
+		<div class="ui-block-b">
+			Rocking Study Group<br><br>
+			Software Engineering, GDM<br><br>
+			vkara<br><br>
 		</div>
 		<div class="ui-block-c">
-			<h4>Location:</h4>
-			<h4>Timings:</h4>
-			<h4>Group Capacity:</h4>
+			<b>Location:</b><br><br>
+			<b>Timings:</b><br><br>
+			<b>Group Capacity:</b><br><br>
 		</div>
-		<div class="ui-block-d h4-ans">
-			DH Hill, Floor 3, Room 3076
-			<div class="h4-ans">Nov 30, 5p.m to 8p.m</div>
-			5/7
+		<div class="ui-block-d">
+			DH Hill, Floor 3, Room 3076<br><br>
+			Nov 30, 5p.m to 8p.m<br><br>
+			5/7<br><br>
 		</div>
 	</div>
+	
+	<p><b>Description: </b> This is an initial discussion on SDLC. We can ponder over how wiki says 
+	describe a process for planning, creating, testing, and deploying an information system. The systems development life-cycle concept applies to a range of 
+	hardware and software configurations, as a system can be composed of hardware only, software only, or a combination of both </p>
 
 	<h2 style="text-align: center;">Discussion Forums</h2>
 

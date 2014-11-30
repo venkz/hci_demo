@@ -168,6 +168,8 @@
 		</div>
 
 	</form>
+	<a href="MyGroups.jsp"><span class="glyphicon glyphicon-arrow-left" style="font-size:38px;"></span></a>
+	
 </div>
 
 <script type="text/javascript">

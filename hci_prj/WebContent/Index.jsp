@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="Index.jsp">Study Group Management System</a>
+          <a class="navbar-brand" href="Dashboard.jsp">Study Group Management System</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -82,7 +82,7 @@
             
             
             </li>
-            <li><a href="#">Profile</a></li>
+            <li><a href="Profile.jsp">Profile</a></li>
             <li><a href="#">Logout</a></li>
           </ul>
       

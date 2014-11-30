@@ -9,12 +9,13 @@
     <iframe width="100%" height="100%" style="overflow:visible;" onload='javascript:resizeIframe(this);'  
     frameborder="0" seamless="seamless" src="MyGroupsIFrame.jsp" ></iframe>
 </div>
-
+<a href="MyGroups.jsp" id="backA"><span class="glyphicon glyphicon-arrow-left" style="font-size:38px;"></span></a>
 </div>
 
 <script language="javascript" type="text/javascript">
   function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
   }
+  
 </script>
 
