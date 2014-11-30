@@ -42,39 +42,57 @@
                         <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     Notifications (3)</a>
             <ul class="dropdown-menu dropdown-messages">
-                        <li>
-                            <a href="#">
+              			<li>
+                            <a href="GroupDetailsLeave.jsp">
                                 <div>
-                                    <strong>CSC 554 - HCI Study Group</strong>
+                                    <span class="pull-left text-primary">
+                                    	<em>Stephen Weber</em>
+                                    </span>
                                     <span class="pull-right text-muted">
                                         <em>Today</em>
                                     </span>
                                 </div>
-                                <div>Next time we meet, we will study 'The Computer: Input' chapter that was taught in class.</div>
+                                </br>
+                                 <div>
+                                	<strong>Rocking Study Group</strong>
+                                </div>
+                                <div>We will discuss the topics taught in class today. SE class was about cohesion and coupling.</div>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
                                 <div>
-                                    <strong>CSC 510 - SE Study Group</strong>
+                                     <span class="pull-left text-primary">
+                                    	<em>Swathi Kiran</em>
+                                    </span>
                                     <span class="pull-right text-muted">
-                                        <em>Yesterday</em>
+                                        <em>Today</em>
                                     </span>
                                 </div>
-                                <div>I have booked room #2324 at Hunt Library for us to meet this week. See you all there!</div>
+                                </br>
+                                <div>
+                                	<strong>Rocking Study Group</strong>
+                                </div>
+                                <div>Can anyone tell me what are we going to discuss about in today's meeting?</div>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
                                 <div>
-                                    <strong>CSC 540 - DBMS Study Group</strong>
+                                      <span class="pull-left text-primary">
+                                    	<em>vkara</em>
+                                    </span>
                                     <span class="pull-right text-muted">
                                         <em>Yesterday</em>
                                     </span>
                                 </div>
-                                <div>Is it possible for us to meet on Friday, November 28th as the final exams are next week?</div>
+                                </br>
+                                 <div>
+                                	<strong>Rocking Study Group</strong>
+                                </div>
+                                <div>Welcome everyone. Lets meet on Sunday to discuss about SE and GDM.</div>
                             </a>
                         </li>
                         <li class="divider"></li>
