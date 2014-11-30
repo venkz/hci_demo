@@ -16,6 +16,7 @@
     <link href="css/datepicker.css" rel="stylesheet">
     <link href="css/bootstrap-timepicker.css" rel="stylesheet">
     <link href="css/bootstrap-select.css" rel="stylesheet">
+    <link href="css/reveal.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     
     <link href="css/dashboard.css" rel="stylesheet">
@@ -33,10 +34,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="Dashboard.jsp">Study Group Management System</a>
+          <a class="navbar-brand" href="Dashboard.jsp" style="font-size: 16px; font-weight: bold;">Study Group Management System</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+          	<li><a>Welcome Kara</a></li>
             <li class="dropdown">
              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
@@ -93,7 +95,7 @@
 	String currUrl = (String)request.getRequestURL().toString();
 %>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" style="font-size: 16px; font-weight: bold;">
         <div class="col-sm-3 col-md-2 sidebar">
         <% if(currUrl.contains("Dashboard")) {%>
         	<ul class="nav nav-sidebar">
@@ -152,5 +154,9 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/bootstrap-timepicker.js"></script>
     <script src="js/bootstrap-select.js"></script>
+       
+        <script src="js/jquery-1.4.4.min.js"></script>
+    
+    <script src="js/jquery.reveal.js"></script>
   </body>
 </html>

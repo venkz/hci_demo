@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="js/jquery.js"></script>
-<script src="js/jquery.mobile-1.4.5.min.js"></script>
 <link href="css/jquery.mobile-1.4.5.css" rel="stylesheet">
+<link href="css/reveal.css" rel="stylesheet">
 
 <meta charset="ISO-8859-1">
 </head>
@@ -37,7 +36,7 @@
 
 		</a></li>
 		<li><a href="GroupDetailsLeave.jsp" target="_parent"
-			class="ui-btn ui-icon-carat-r"> <img alt="study group"
+			class="ui-btn ui-icon-carat-r" id="dummy"> <img alt="study group"
 				src="img/stdy_grp.jpg">
 				<div class="ui-grid-c">
 					<div class="ui-block-a">
@@ -82,5 +81,29 @@
 		</a></li>
 	</ul>
 	
+	<a href="#" data-reveal-id="myModal"
+					data-animation="fade" class="btn btn-lg btn-success" id="submitBtn" hidden="">
+					Create </a>
+	
+		<div id="myModal" class="reveal-modal">
+			<h1>Left Group successfully</h1>
+			<p>You are not part of this study group anymore. You can find this updated in your schedule. Click on Proceed to navigate to your schedule.</p>
+			<a href="Dashboard.jsp" class="btn btn-lg btn-success" target="_parent">Proceed</a>
+			<a class="close-reveal-modal">&#215;</a>
+		</div>
+	
 </body>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/jquery-1.4.4.min.js"></script>
+<script src="js/jquery.reveal.js"></script>
+
+<script type="text/javascript">
+	$("#dummy").click(function(event){
+	  event.preventDefault();
+	  $("#submitBtn").click();
+	});
+</script>
+
 </html>
