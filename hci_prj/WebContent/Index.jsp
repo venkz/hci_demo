@@ -14,6 +14,8 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/datepicker.css" rel="stylesheet">
+    <link href="css/bootstrap-timepicker.css" rel="stylesheet">
+    <link href="css/bootstrap-select.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     
     <link href="css/dashboard.css" rel="stylesheet">
@@ -150,5 +152,7 @@
      <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/bootstrap-timepicker.js"></script>
+    <script src="js/bootstrap-select.js"></script>
   </body>
 </html>
