@@ -42,7 +42,7 @@
             <li class="dropdown">
              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
-                    Notifications (3)</a>
+                    Notifications (2)</a>
             <ul class="dropdown-menu dropdown-messages">
               			<li>
                             <a href="GroupDetailsLeave.jsp">
@@ -59,24 +59,6 @@
                                 	<strong>Rocking Study Group</strong>
                                 </div>
                                 <div>We will discuss the topics taught in class today. SE class was about cohesion and coupling.</div>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                     <span class="pull-left text-primary">
-                                    	<em>Swathi Kiran</em>
-                                    </span>
-                                    <span class="pull-right text-muted">
-                                        <em>Today</em>
-                                    </span>
-                                </div>
-                                </br>
-                                <div>
-                                	<strong>Rocking Study Group</strong>
-                                </div>
-                                <div>Can anyone tell me what are we going to discuss about in today's meeting?</div>
                             </a>
                         </li>
                         <li class="divider"></li>
