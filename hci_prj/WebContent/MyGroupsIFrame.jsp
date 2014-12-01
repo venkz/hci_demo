@@ -65,7 +65,7 @@
 						<div>
 							<h2>DBMS Study Group</h2>
 							<p>Course: Database Management Systems</p>
-							<p>Every Friday, 9p.m to 12p.m</p>
+							<p>Every Friday, 9p.m to 12a.m</p>
 							<p>Hunt Library, Floor 2, Room 2116</p>
 						</div>
 					</div>

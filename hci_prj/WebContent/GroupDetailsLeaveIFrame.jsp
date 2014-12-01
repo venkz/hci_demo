@@ -71,7 +71,7 @@
 		<li data-role="list-divider">Sunday, November 30, 2014 <span
 			class="ui-li-count">2</span></li>
 		<li id="onPost">
-			<h2>Venkatesh Kara</h2>
+			<h2>Swathi Kiran</h2>
 			<p>
 				<strong>I just posted this topic and please check this out. </strong>
 			</p>

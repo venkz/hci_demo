@@ -38,7 +38,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-          	<li><a>Welcome Kara</a></li>
+          	<li><a>Welcome Swathi</a></li>
             <li class="dropdown">
              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                         <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
@@ -107,27 +107,7 @@
           	</ul>
         <%} %>
         
-        <% if(currUrl.contains("FindGroups")) {%>
-        	<ul class="nav nav-sidebar">
-            	<li class="active"><a href="FindGroups.jsp">Find Student Groups <span class="sr-only">(current)</span></a></li>
-          	</ul>
-        <%} else {%>
-        	<ul class="nav nav-sidebar">
-            	<li><a href="FindGroups.jsp">Find Student Groups</a></li>
-          	</ul>
-        <%} %>
-        
-        <% if(currUrl.contains("CreateGroup")) {%>
-        	<ul class="nav nav-sidebar">
-            	<li class="active"><a href="CreateGroup.jsp">Create new Study Group<span class="sr-only">(current)</span></a></li>
-          	</ul>
-        <%} else {%>
-        	<ul class="nav nav-sidebar">
-            	<li><a href="CreateGroup.jsp">Create new Study Group</a></li>
-          	</ul>
-        <%} %>
-        
-        <% if(currUrl.contains("MyGroups")) {%>
+        <% if(currUrl.contains("MyGroups") || currUrl.contains("GroupDetailsLeave")) {%>
         	<ul class="nav nav-sidebar">
             	<li class="active"><a href="MyGroups.jsp">My Study Groups<span class="sr-only">(current)</span></a></li>
           	</ul>
@@ -137,6 +117,25 @@
           	</ul>
         <%} %>
           
+          <% if(currUrl.contains("FindGroups") || currUrl.contains("GroupDetailsJoin")) {%>
+        	<ul class="nav nav-sidebar">
+            	<li class="active"><a href="FindGroups.jsp">Find Study Groups <span class="sr-only">(current)</span></a></li>
+          	</ul>
+        <%} else {%>
+        	<ul class="nav nav-sidebar">
+            	<li><a href="FindGroups.jsp">Find Study Groups</a></li>
+          	</ul>
+        <%} %>
+        
+        <% if(currUrl.contains("CreateGroup")) {%>
+        	<ul class="nav nav-sidebar">
+            	<li class="active"><a href="CreateGroup.jsp">Create New Study Group<span class="sr-only">(current)</span></a></li>
+          	</ul>
+        <%} else {%>
+        	<ul class="nav nav-sidebar">
+            	<li><a href="CreateGroup.jsp">Create New Study Group</a></li>
+          	</ul>
+        <%} %>
         </div>
       </div>
     </div>
@@ -155,7 +154,7 @@
     <script src="js/bootstrap-timepicker.js"></script>
     <script src="js/bootstrap-select.js"></script>
        
-        <script src="js/jquery-1.4.4.min.js"></script>
+        <!-- <script src="js/jquery-1.4.4.min.js"></script> -->
     
     <script src="js/jquery.reveal.js"></script>
   </body>

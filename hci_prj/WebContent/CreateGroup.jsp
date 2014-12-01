@@ -71,7 +71,7 @@
 						<input id="timepicker3" type="text" class="datepicker">
 					</div>
 					<div class="col-sm-4">
-						<p style="color: red;" hidden="true" id="errorMsg">Overlapping schedule found! Please check your <a>calander</a></p>
+						<p style="color: red;" hidden="true" id="errorMsg">Overlapping schedule found! Please check your <a>calendar</a></p>
 					</div>
 				</div>
 			</div>
@@ -84,7 +84,7 @@
 						<input id="timepicker4" type="text" class="datepicker">
 					</div>
 					<div class="col-sm-4">
-						<p style="color: red;" hidden="true" id="errorMsg2">Overlapping schedule found! Please check your <a>calander</a></p>
+						<p style="color: red;" hidden="true" id="errorMsg2">Overlapping schedule found! Please check your <a>calendar</a></p>
 					</div>
 				</div>
 			</div>
